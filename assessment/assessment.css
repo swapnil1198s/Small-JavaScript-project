@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    background-color:rgb(255, 152, 115);
+}
+
+h1{
+    font-size: 3em;
+    font-family: 'Lemonada', cursive;
+}
+
+h1.mainText{
+    font-size: 2em;
+}
+
+h3{
+    color: rgb(0, 172, 0);
+    font-size: 1em;
+}
+
+h4{
+    color: firebrick;
+    font-size: 0.6em;
+}
+.output{
+    text-align: center;
+    font-size: 1em;
+    padding: 3em;
+    background-color: rgb(255, 253, 145);
+    margin-top: 4em;
+    margin-bottom: 4em;
+    margin-left: 3em;
+    margin-right: 3em;
+    border-radius: 1em;
+}
+
+button{
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 1.5em;
+    padding: 1em;
+    border-radius: 0.7em;
+}
+
+button:active{
+    background-color: plum;
+    color: black;
+    font-size: 1.5em;
+    padding: 1em;
+    border-radius: 0.7em;
+}
+
+p{
+    font-size: 0.5em;
+}
+
+#st200{
+    color: rgb(0, 172, 0);
+}
+
+#stN200{
+    color:  firebrick;
+}
+
+div.description{
+    width: 20%;
+    float: left;
+    font-size: 1em;
+}

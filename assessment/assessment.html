@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "assessment.js"></script>
+        <link rel="stylesheet" type="text/css" href="assessment.css"> 
+        <link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap" rel="stylesheet">
+        
+    </head>
+    <body>
+        <div>
+            <h1>Technical Assessment</h1>
+            <button type="button" class="btn btn-info"onclick="loadObject('https://api.github.com/orgs/boomtownroi')">Press me</button>
+        </div>
+        <div class = "output">
+            <h1 class = "mainText"  id = "result">The retrieved urls</h1>
+        </div>
+        <div class = "output">
+            <div>
+                <div class="description" style="margin-left: 24em;"> <h2 id = "st200">200 status code</h2></div>
+                <div class="description" ><h2 id = "stN200">Not 200 status code</h2></div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <h1 class = "mainText" id = "result2">The result of the objects retrieved from above urls</h1>
+            
+        </div>
+    </body>
+</html>
