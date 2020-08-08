@@ -156,6 +156,7 @@ function getTimesOfChange(data){
     }
 }
 
+//tests for verification
 function testCount(){
     getObjCount('https://api.github.com/orgs/BoomTownROI/repos?page=1&per_page=1000');
 }
